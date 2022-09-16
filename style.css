@@ -1,0 +1,90 @@
+body
+{
+    top:0;
+    left: 0;
+    height: 100vh;
+    overflow-y: hidden;
+    background-image: linear-gradient(to right top, #6f6bd1, #6d74d7, #6c7edc, #6b86e0, #6c8fe4, #5a99e9, #49a2eb, #38aaec, #00b4e7, #00bcdd, #02c3d0, #40c9c1);
+}
+
+img
+{
+    width: 40px;
+    height: 40px;
+}
+
+.chat
+{
+    background: rgb(5, 45, 67);
+    width: 30%;
+    height: 80%;
+    margin-left: 35%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    border: solid 2px black;
+}
+
+.header
+{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 10px;
+    border-radius: 20px 20px 0 0;
+    background: teal;
+    height: 10%;
+}
+
+.contenido
+{
+    display: flex;
+    padding: 15px;
+    background: beige;
+    height: 75%;
+    flex-direction: column;
+}
+
+.user
+{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 15%;
+}
+
+.bot
+{
+    padding: 5px 0;
+    display: flex;
+    height: 15%;
+}
+
+label
+{
+    padding: 0 10px;
+}
+
+.foother
+{ 
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10%;
+}
+
+input
+{
+    height: 40px;
+    width: 70%;
+    border-radius: 20px 0 0 20px;
+    margin-right: 4px;
+}
+
+button
+{
+    height: 40px;
+    width: 25%;
+    border-radius: 0 20px 20px 0;
+}
